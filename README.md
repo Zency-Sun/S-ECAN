@@ -13,6 +13,8 @@ Image super-resolution reconstruction (SR) is an important ill-posed problem in 
 
 ## 4.Results
 
+![PSNR and Parameters](https://github.com/Zency-Sun/S-ECAN/blob/main/Figs/PSNR%20and%20Parameters.png)
+
 ## 5.Citations
 
 ## 6.Acknowledgement
