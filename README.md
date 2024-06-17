@@ -30,17 +30,22 @@ pip install -r requirements.txt
 At this point, the environment configuration has been completed, the environment as the project's environment can be.
 
 ## 3.Dataset and Model
+- Dataset
+Download dataset `benchmark_datasets` from [Release](https://github.com/Zency-Sun/S-ECAN/releases/tag/v1.0) in this repository, unzip it into the `datasets directory`, and use the program `scripts/matlab_scripts/generate_bicubic_img.m` to generate the GTmodx (as HR) with the LRbicx folder (as LR).
 
-### 3.1.Dataset
-
-
-### 3.2.Model
-Download the models from here and place them in the `experiments/pretrained_models` folder
+- Model
+Download the models from [Release](https://github.com/Zency-Sun/S-ECAN/releases/tag/v1.0) in this repository, and place them in the `experiments/pretrained_models` folder.
 
 
 ## 4.Test and Validation
+Once the environment, dataset and model are ready, it's time for testing and validation. Our testing and validation code is `run.sh`, and you can directly use the following code to reproduce the paper results:
+```bash
+/bin/bash run.sh
+```
 
-【Note】: This program may have a small deviation under different hardware conditions or software environments.
+【Note1】: This program may have a small deviation under different hardware conditions or software environments.
+
+【Note2】: This repository only provides code for testing and validation, if you want to use our network structure for training or improvement, you can implement it in combination with `secan/archs/secan_arch.py` and [BasicSR repository](https://github.com/XPixelGroup/BasicSR).
 ## 5.Results
 - Quantitative comparison (average PSNR/SSIM) with state-of-the-art methods on benchmark datasets.
 ![Quantitative Comparison](https://github.com/Zency-Sun/S-ECAN/blob/main/Figs/Quantitative%20comparison.png)
