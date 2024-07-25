@@ -1,6 +1,6 @@
 # S-ECAN
 This repository is for S-ECAN introduced in the following paper：
-### Image Super-Resolution Reconstruction Using Swin Transformer with Efficient Channel Attention Networks [[Paper Link]](https://github.com/Zency-Sun/S-ECAN)
+### Image Super-Resolution Reconstruction Using Swin Transformer with Efficient Channel Attention Networks [[Paper Link]](https://www.sciencedirect.com/science/article/pii/S0952197624010170?dgcid=coauthor)
 
 **The code is tested on Ubuntu 20.04 environment (Python 3.8, PyTorch 1.7.1, CUDA 12.0) with GeForce RTX 3090/Gefore GTX TITAN GPUs.**
 
@@ -59,6 +59,20 @@ When the program has finished running successfully, the inference results of the
 ![PSNR and Parameters](https://github.com/Zency-Sun/S-ECAN/blob/main/Figs/PSNR%20and%20Parameters.png)
 
 ## 6.Citations
-**Article to be published soon~**
+```bash
+@article{SUN2024108859,
+title = {Image super-resolution reconstruction using Swin Transformer with efficient channel attention networks},
+journal = {Engineering Applications of Artificial Intelligence},
+volume = {136},
+pages = {108859},
+year = {2024},
+issn = {0952-1976},
+doi = {https://doi.org/10.1016/j.engappai.2024.108859},
+url = {https://www.sciencedirect.com/science/article/pii/S0952197624010170},
+author = {Zhenxi Sun and Jin Zhang and Ziyi Chen and Lu Hong and Rui Zhang and Weishi Li and Haojie Xia},
+keywords = {Image super-resolution, Swin Transformer, Efficient channel attention, Multi-attention fusion},
+}
+```
+
 ## 7.Acknowledgement
 The codes are based on [BasicSR](https://github.com/XPixelGroup/BasicSR). Please also follow their licenses. Thanks for their awesome works.
