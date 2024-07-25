@@ -61,16 +61,16 @@ When the program has finished running successfully, the inference results of the
 ## 6.Citations
 ```bash
 @article{SUN2024108859,
-title = {Image super-resolution reconstruction using Swin Transformer with efficient channel attention networks},
-journal = {Engineering Applications of Artificial Intelligence},
-volume = {136},
-pages = {108859},
-year = {2024},
-issn = {0952-1976},
-doi = {https://doi.org/10.1016/j.engappai.2024.108859},
-url = {https://www.sciencedirect.com/science/article/pii/S0952197624010170},
-author = {Zhenxi Sun and Jin Zhang and Ziyi Chen and Lu Hong and Rui Zhang and Weishi Li and Haojie Xia},
-keywords = {Image super-resolution, Swin Transformer, Efficient channel attention, Multi-attention fusion},
+    title = {Image super-resolution reconstruction using Swin Transformer with efficient channel attention networks},
+    journal = {Engineering Applications of Artificial Intelligence},
+    volume = {136},
+    pages = {108859},
+    year = {2024},
+    issn = {0952-1976},
+    doi = {https://doi.org/10.1016/j.engappai.2024.108859},
+    url = {https://www.sciencedirect.com/science/article/pii/S0952197624010170},
+    author = {Zhenxi Sun and Jin Zhang and Ziyi Chen and Lu Hong and Rui Zhang and Weishi Li and Haojie Xia},
+    keywords = {Image super-resolution, Swin Transformer, Efficient channel attention, Multi-attention fusion},
 }
 ```
 
